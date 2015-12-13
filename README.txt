@@ -22,4 +22,3 @@ Folder structure:
    --main.cpp, main function, entry to program
    --README.pdf, README about the project
 
-remark: before you compile this project, you need to go into constants folder to find config.h file and change the input file's path, make sure the input file's path is rigt on your system
