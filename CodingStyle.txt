@@ -1,0 +1,77 @@
+C++ Coding Style
+
+(1)Header Files
+
+#define guard like
+
+#ifndef FOO_BAR_BAZ_H_
+#define FOO_BAR_BAZ_H_
+
+...
+
+#endif  // FOO_BAR_BAZ_H_
+
+
+(2)Class
+must use namespace for every class and its name is always start with upper char for every word
+
+namespace zeus{
+    class SomeClass{
+        ...
+    }
+}
+
+(3)Class File
+for every class, there are two files
+class_file.h
+class_file.cpp
+
+(4)Variable
+
+local variable           :   localVariable
+member variable          :   mVariable
+global variable          :   gVariable
+const variable           :   cVariable
+global const variable    :   gcVariable
+pointer variable         :   VariablePtr
+class name               :   ClassName
+class function           :   ClassFunction
+file name                :   file_name
+
+except for ORM, for ORM, we use variable which do not obey these rules. Because we want ORM just like database
+
+
+(5)ORM
+
+
+(5)Enum
+enum Example{
+        ONE,
+        TWO,
+        THREE
+    };
+
+(5)Comment
+
+1. for every file
+/*
+ Created by Xavier on 2015/12/5.
+*/
+
+/*
+ * From outfile to infile
+ * @param inFileNmae, input file name
+ * @param outFileName, output file name
+ * @return bool, indicate if the operation is successful
+ */
+
+
+2. for some code, must on a new line
+// xxx xx xxx
+
+
+(5)Rules
+
+1. large braces
+2. Do not use tab, use four spaces
+
